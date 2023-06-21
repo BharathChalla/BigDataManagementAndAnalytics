@@ -1,0 +1,15 @@
+Region: N. California
+
+Go to Advanced options
+
+Imapala - AMI: 3.11.0
+Tez     - EMR: >= 4.7.0
+Spark   - EMR: 6.8.0, PySpark: 3.3.0
+Hive    - Any EMR
+
+Instead of OnDemand use the Spot Instances for cheaper price but allocation takes more time.
+
+
+Generate a EC2 KeyPair for connecting to the AWS Master Node of EMR
+Setup the No Termination
+Setup the Network Config to listen on 0.0.0.0/0 - Every IP.

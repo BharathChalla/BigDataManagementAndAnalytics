@@ -1,0 +1,13 @@
+pip install pyspark
+
+
+https://github.com/cdarlint/winutils
+
+winutils.exe
+
+
+Exception: terminated with exception: org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Ljava/lang/String;I)Z
+Put hadoop.dll in system32 folder
+Ref: https://stackoverflow.com/questions/41851066/exception-in-thread-main-java-lang-unsatisfiedlinkerror-org-apache-hadoop-io
+
+https://github.com/steveloughran/winutils
